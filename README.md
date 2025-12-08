@@ -83,3 +83,72 @@ This results in a rich, weighted teammate network covering 70+ years of F1 histo
 ### **1. Install Requirements**
 ```bash
 pip install pandas networkx matplotlib
+```
+
+### 1. Find Teammates
+
+Search a driver's complete teammate history.
+
+**How to use:**
+- Enter the driver’s name in the input field.
+- Click **Search**.
+- The results table will display:
+  - All teammates the driver has raced with
+  - Number of races shared
+  - Years of partnership
+
+---
+
+### 2. Shortest Path
+
+Find the shortest teammate connection chain between two drivers.
+
+**How to use:**
+- Enter the first driver’s name.
+- Enter the second driver’s name.
+- Click **Calculate Path**.
+- The output box will display:
+  - The shortest connection path (e.g., *Hamilton → Alonso → Senna*), or
+  - A message if no path exists.
+
+---
+
+### 3. Top Networkers
+
+Display the drivers with the largest number of unique teammates (degree centrality).
+
+**How to use:**
+- Click **Show Top 20**.
+- A ranked list will appear, showing:
+  - Driver name
+  - Number of unique teammates
+
+This highlights historically well-connected drivers.
+
+---
+
+### 4. Team Filter
+
+Find all drivers who raced for a specific constructor.
+
+**How to use:**
+- Enter a team/constructor name (e.g., *Ferrari*, *McLaren*, *Red Bull*).
+- Click **Filter**.
+- The results table will display all associated drivers.
+
+---
+
+### 5. Network Viz (Ego Graph Visualization)
+
+Generate a visualization of a driver’s local teammate network.
+
+**How to use:**
+- Enter a driver’s name.
+- Click **Generate Graph**.
+- A pop-up window will display:
+  - The selected driver (center node)
+  - All teammates (neighbor nodes)
+  - Edges representing shared races (weighted)
+
+Close the graph window to return to the GUI.
+
