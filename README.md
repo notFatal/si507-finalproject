@@ -80,7 +80,7 @@ This results in a rich, weighted teammate network covering 70+ years of F1 histo
 
 ##  How to Run the Project
 
-### **1. Install Requirements**
+### **Install Requirements**
 ```bash
 pip install pandas networkx matplotlib
 ```
